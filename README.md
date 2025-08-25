@@ -1,12 +1,65 @@
-# React + Vite
+# SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern landing page for SaaS, built with React, Vite, and Tailwind CSS v4.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design for all devices
+- Smooth scroll navigation
+- Modular and reusable components
+- Fast development and build with Vite
+- Utility-first styling with Tailwind CSS v4
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React 19**: Main library for building the UI
+- **Vite**: Fast bundler for development and production
+- **Tailwind CSS v4**: Utility-first CSS framework
+- **ESLint**: Code quality and linting
+- **Prettier**: Code formatting
+- **clsx**: Conditional className utility
+- **react-scroll**: Smooth scrolling between sections
 
-## Expanding the ESLint configuration
+## Folder Structure
+```
+public/
+  images/         # Images used in the UI
+  logos/          # Partner logos
+  socials/        # Social media icons
+  testimonials/   # Testimonial photos
+src/
+  assets/         # SVGs and internal images
+  components/     # Reusable components (Button, Marker)
+  constants/      # Global constants
+  sections/       # Landing page sections (Header, Hero, Features)
+  App.jsx         # Main app component
+  index.css       # Global styles
+  main.jsx        # Entry point
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Available Scripts
+- `npm run dev`: Start the development server
+- `npm run build`: Build for production
+- `npm run preview`: Preview the production build locally
+- `npm run lint`: Run ESLint
+
+## Installation
+```bash
+npm install
+```
+
+## Usage
+```bash
+npm run dev
+```
+
+## Build
+```bash
+npm run build
+```
+
+## Additional Information
+- The project uses only standard Tailwind v4 utilities, with no custom tailwind.config.js.
+- Images and assets are organized in the `public/images` folder.
+- For details on Tailwind classes, see the [official documentation](https://tailwindcss.com/docs/installation).
+
+## License
+This project is for study and demonstration purposes only.
